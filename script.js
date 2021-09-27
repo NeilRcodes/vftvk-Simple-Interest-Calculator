@@ -1,12 +1,12 @@
 function validation()
 {
-	var principal = document.getElementById("principal").value;
-	if (principal == ""){	
+	var principal = document.getElementById("principal");
+	if (principal.value == ""){	
 		alert("Enter a positive number");
 		principal.focus();
 		return false;
 		}
-	if (principal <= 0){	
+	if (principal.value <= 0){	
 		alert("Enter a positive number");
 		principal.focus();
 		return false;
