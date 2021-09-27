@@ -8,7 +8,12 @@ h1{color:grey;font-family:verdana}
     border-radius:25px;
     text-align: justify;
 	}
-.maindiv.Amountdiv{
-	color:blue;
-	text-align:right;
+#principal{
+	margin-left:60px;
+}
+#rate{
+	margin-left:25px;
+}
+#years{
+	margin-left:27px;
 }
